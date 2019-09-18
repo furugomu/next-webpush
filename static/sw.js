@@ -19,5 +19,5 @@ self.addEventListener("notificationclick", event => {
 
   event.notification.close();
 
-  event.waitUntil(clients.openWindow("https://example.com/"));
+  event.waitUntil(clients.openWindow("https://next-webpush-f2igo5y3d.now.sh/"));
 });
